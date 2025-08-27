@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Duck Life 5",
+    "directory": "ducklife5",
+    "image": "image.png"
+  },
+  {
+    "name": "Duck Life 6",
+    "directory": "ducklife6",
+    "image": "image.png"
+  },
+  {
+    "name": "webretro",
+    "directory": "webretro",
+    "image": "image.png"
+  },
+
+  }
+]
