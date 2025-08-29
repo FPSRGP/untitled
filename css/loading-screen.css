@@ -33,7 +33,7 @@ transition-delay: 1s;
 .counter {
 position: relative;
 color: #fff;
-font-size: 16em;
+font-size: 5em;
 font-weight: 700;
 z-index: 1;
 }
