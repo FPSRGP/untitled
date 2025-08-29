@@ -4,8 +4,9 @@
   <title>Jag.io</title>
   <link rel="icon" href="JAG.png" />
   <link rel="stylesheet" href="css/themes.css" />
-  <link rel="stylesheet" href="css/style.css" />
-   <script src="javascript/themes.js"></script>
+        <!--thanks to @WilardzySenpai-->
+    <link rel="stylesheet" href="loading/index.css" />
+    <script src="javascript/themes.js"></script>
    <script src="javascript/quote.js"></script>
    <script src="javascript/jag.js"></script>
     
@@ -18,6 +19,29 @@
     </script>
     
 </head>
+      <!--LOADING SCREEN BY @WilardzySenpai 03- -->
+    
+        <div class="preloader">
+        <div class="counter">0</div>
+    </div>
+    <section>
+    <!-- Loading Script -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript">
+	  function counter(){
+		  var count = setInterval(function(){
+			  var c = parseInt($('.counter').text());
+			  $('.counter').text((++c).toString());
+			  if (c == 100){
+				  clearInterval(count);
+				  $('.counter').addClass('hide')
+				  $('.preloader').addClass('active')
+			  }
+        // 1-100, 1 superfast countdown 50 mild countdown and so on, the higher number the slower.
+		  },25)
+	  }
+	  counter()
+</script>
   <body>
     <header>
 <div id="jag-ne">
