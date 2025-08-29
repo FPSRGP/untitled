@@ -2,20 +2,20 @@
 \
 Shooter / Battle Games \
 	1.	1v1.lol \
-	2.	Shell Shockers \
-	3.	Krunker.io \
-	4.	Zombs Royale \
-	5.	Surviv.io \
-	6.	Venge.io \
-	7.	Mini Royale Nations \
-	8.	Ev.io \
-	9.	Bullet Force \
-	10.	Combat Reloaded \
+	2.	Shell Shockers ☐ \
+	3.	Krunker.io ☐ \
+	4.	Zombs Royale ☐ \
+	5.	Surviv.io ☐ \
+	6.	Venge.io ☐ \
+	7.	Mini Royale Nations ☐ \
+	8.	Ev.io ☐ \
+	9.	Bullet Force ☐ \
+	10.	Combat Reloaded ☐ \
  \
 ⸻ \
  \
 Arcade / Retro \
-	11.	Retro Bowl \
+	11.	Retro Bowl ☐ \
 	12.	Slope \
 	13.	Slope 2 \
 	14.	Run 3 \
