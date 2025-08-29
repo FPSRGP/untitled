@@ -16,7 +16,7 @@
 #container img {
         width: 100px; /* Ensure square dimensions for a rounded square */
         height: 100px;
-        border-radius: 20%;
+        border-radius: 15%;
     }
 #jag-ne img {
     width:50%;
