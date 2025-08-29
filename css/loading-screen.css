@@ -18,9 +18,9 @@ background: #000;
 z-index: 100000000;
 }
 .preloader:before {
-content: 'Sl4ckrr';
+content: '';
 position: absolute;
-font-size: 12em;
+font-size: 8em;
 font-weight: 900;
 text-transform: uppercase;
 color: rgba(255,255,255,.03);
