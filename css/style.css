@@ -12,7 +12,6 @@
     margin:6px;
     text-align:center;
     border-radius:20%;
-    box-shadow: 0px 0px 6px 2px rgb(152 139 139 / 50%);
 }
 #container img {
         width: 100px; /* Ensure square dimensions for a rounded square */
