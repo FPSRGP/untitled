@@ -16,6 +16,8 @@ body {
     align-items:center;
     min-height:400px;
     border-radius:20%;
+    box-sizing: border-box;
+    align-content: center;
 }
 #container img {
   border-radius: 15%;
