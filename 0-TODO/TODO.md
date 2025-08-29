@@ -1,4 +1,4 @@
-#GAMES TO ADD \
+#GAMES TO ADD 
 \
 Shooter / Battle Games \
 	1.	1v1.lol \
