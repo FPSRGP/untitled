@@ -20,7 +20,7 @@ z-index: 100000000;
 .preloader:before {
 content: '';
 position: absolute;
-font-size: 8em;
+font-size: 5em;
 font-weight: 900;
 text-transform: uppercase;
 color: rgba(255,255,255,.03);
