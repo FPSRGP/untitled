@@ -28,7 +28,12 @@ body {
     margin: 0 auto 10px;
     border-radius: 15%;
 }
-    }
+header {
+    background:333;
+    border-radius:15%;
+    border:12px;
+    border-color:555;
+}
 #logo img {
     width:30%;
     height:30%;
