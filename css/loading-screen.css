@@ -36,6 +36,11 @@ transition-delay: 1s;
   margin-top:15px;
   text-align:center;
 }
+.loading-text img{
+  width:24px;
+  height:24px;
+  margin-right: 8px;
+}
 .counter {
 position: relative;
 color: #fff;
