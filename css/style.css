@@ -1,5 +1,5 @@
 html, body {
-    overflow: hidden; /* prevents scrollbars */
+    /* overflow: hidden; /* prevents scrollbars */
     background-color: black; /* Or any color you want behind the embed */
 }
 #container {
