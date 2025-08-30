@@ -30,6 +30,12 @@ transform: translateY(-100vh);
 transition: ease-in-out 2s;
 transition-delay: 1s;
 }
+.loading-text{
+  color:#fff;
+  font-size:1.2em;
+  margin-top:15px;
+  text-align:center;
+}
 .counter {
 position: relative;
 color: #fff;
