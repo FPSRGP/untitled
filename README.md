@@ -8,5 +8,5 @@ releasing at 60 games!
 </a> 
  
 # credits
-- @genizy for the ports <3 \
+- @genizy for the ports <3 
 - @WilardzySenpai for the loading screen
