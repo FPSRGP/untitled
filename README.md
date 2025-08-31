@@ -1,5 +1,5 @@
 # *welcome to* **Jag.io** 
- releasing at 60 stratagems!  \
+ - releasing at 60 stratagems!
 **(should probably use json sooner or later lmao)**
 # Contributors:
 <a href="https://github.com/waterl3mon/Jag.io/graphs/contributors">
