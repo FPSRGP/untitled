@@ -6,6 +6,7 @@ releasing at 60 games!
 <a href="https://github.com/waterl3mon/Jag.io/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=waterl3mon/Jag.io" />
 </a> 
+ 
 # credits
 @genizy for the ports <3
 @@WilardzySenpai for the loading screen
