@@ -1,6 +1,6 @@
 # Hello
-*welcome to* **Jag.io** \
-releasing at 60 games! \
+## *welcome to* **Jag.io** \
+### releasing at 60 games! \
 **(should probably use json sooner or later lmao)**
 # Contributors:
 <a href="https://github.com/waterl3mon/Jag.io/graphs/contributors">
