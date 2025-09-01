@@ -5,6 +5,10 @@ html, body {
 header {
     background:#333;
 }
+header, img{
+  float: left;
+  margin-right: 15px; /* Adds space between the image and surrounding text */
+}
 header, a{
         text-align:right;
 }
