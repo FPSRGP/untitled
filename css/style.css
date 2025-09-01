@@ -1,6 +1,11 @@
-.ok img {
-  border-color:green;
-  border:6px;
+#container.ok img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 15%;
+    border-color:green;
+    border:6px;
 }
 .offline img {
   filter: grayscale(100%); /* Makes the image black & white */
