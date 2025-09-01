@@ -2,7 +2,7 @@
  - releasing at 60 stratagems!
 **(should probably use json sooner or later lmao)**
 # Contributors:
-<a >
+<a>
   <img src="https://contrib.rocks/image?repo=waterl3mon/Jag.io" />
   <img src="https://contrib.rocks/image?repo=WilardzySenpai/WilardzySenpai" />
 </a>
