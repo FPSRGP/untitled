@@ -13,7 +13,7 @@
 ## Features
 ✔ 60+ popular Projects  
 ✔ Mobile and desktop friendly  
-✔ No ads
+✔ No ads \
 ✔ Open-source, community-driven  
 
 # credits
