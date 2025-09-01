@@ -5,6 +5,7 @@
 <a>
   <img src="https://contrib.rocks/image?repo=waterl3mon/Jag.io" />
   <img src="https://contrib.rocks/image?repo=WilardzySenpai/WilardzySenpai" />
+  <img src="https://contrib.rocks/image?repo=genizy/genizy.github.io" />
 </a>
  
 # credits
