@@ -1,3 +1,20 @@
+.TOFIX.updating img {
+  filter: grayscale(100%); /* Makes the image black & white */
+  opacity: 0.7; /* Slight fade */
+  position: relative;
+}
+
+.TOFIX.updating::after {
+  content: url('icons/under-construction.png'); /* Your hammer + hat icon */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+  width: 60px; /* Adjust size */
+  height: 60px;
+  pointer-events: none; /* So clicks pass through */
+}
 * {
     margin: 0;
     padding: 0;
