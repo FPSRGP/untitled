@@ -1,10 +1,10 @@
-.TOFIX img {
+#container.TOFIX img {
   filter: grayscale(100%); /* Makes the image black & white */
   opacity: 0.7; /* Slight fade */
   position: relative;
 }
 
-.TOFIX::after {
+#container.TOFIX::after {
   content: url('icons/under-construction.png'); /* Your hammer + hat icon */
   position: absolute;
   top: 50%;
