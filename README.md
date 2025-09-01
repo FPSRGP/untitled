@@ -6,6 +6,7 @@
   <img src="https://contrib.rocks/image?repo=waterl3mon/Jag.io" />
   <img src="https://contrib.rocks/image?repo=WilardzySenpai/WilardzySenpai" />
   <img src="https://contrib.rocks/image?repo=genizy/genizy.github.io" />
+   <img src="https://contrib.rocks/image?repo=tw31122007/HTML-Games-V2" />
 </a>
  
 # credits
