@@ -1,15 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html, body {
     /* overflow: hidden; /* prevents scrollbars */
-    /*background-color: black; /* Or any color you want behind the embed */
+    background-color: pink; /* Or any color you want behind the embed */
 }
 header {
-    background:#333;
+    width: 100%;
+    background: #333;
+    display: flex;
+    align-items: center;
+    padding: 10px; /* Optional for spacing */
 }
-header, img{
-  float: left;
-  margin-right: 15px; /* Adds space between the image and surrounding text */
+header img {
+    margin-right: 15px;
+    height: 50px; /* Control size */
 }
-header, a{
+header a{
         text-align:right;
 }
 a {
