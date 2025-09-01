@@ -1,9 +1,9 @@
-#GAMES TO ADD 
+# GAMES TO ADD 
 \
 - OSU!
 - Hotline Miami
 
-Shooter / Battle Games \
+## Shooter / Battle Games 
 	1.	1v1.lol \
 	2.	Shell Shockers ☐ \
 	3.	Krunker.io ☐ \
