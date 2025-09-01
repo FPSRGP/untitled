@@ -3,7 +3,24 @@
   transition: border 0.3s ease;
   border-radius: 20px; /* Makes it look cleaner */
 }
+.soon {
+  position: relative;
+  opacity: 0.5; /* make it look disabled */
+  pointer-events: none; /* disable clicks */
+}
 
+.soon::after {
+  content: "COMING SOON";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
 /* ✅ Green border for OK games */
 .ok:hover {
   border: 3px solid #00ff00; /* Bright green */
