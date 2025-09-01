@@ -2,12 +2,12 @@
  - releasing at 60 stratagems!
 **(should probably use json sooner or later lmao)**
 # Contributors:
-<a>
+<p align="center">
   <img src="https://contrib.rocks/image?repo=waterl3mon/Jag.io" />
   <img src="https://contrib.rocks/image?repo=WilardzySenpai/WilardzySenpai" />
   <img src="https://contrib.rocks/image?repo=genizy/genizy.github.io" />
    <img src="https://contrib.rocks/image?repo=tw31122007/HTML-Games-V2" />
-</a>
+</p>
  
 # credits
 - @genizy for the ports <3 
