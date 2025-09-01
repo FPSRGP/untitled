@@ -4,9 +4,6 @@ html, body {
 }
 header {
     background:#333;
-    border-radius:5%;
-    border:12px;
-    border-color:#d8d8d8;
 }
 #container {
     display: flex;
