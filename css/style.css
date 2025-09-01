@@ -17,8 +17,15 @@
   border: 2px solid #00ff00;
   box-shadow: 0 0 10px #00ff00;
 }
-
+/* ❌ Red border for TOFIX games */
+.offline:hover {
+  border: 2px solid #ff0000; /* Bright red */
+}
 .TOFIX:hover {
+  border: 2px solid #ff0000;
+  box-shadow: 0 0 10px #ff0000;
+}
+.offline:hover {
   border: 2px solid #ff0000;
   box-shadow: 0 0 10px #ff0000;
 }
