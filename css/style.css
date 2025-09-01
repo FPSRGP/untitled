@@ -2,6 +2,12 @@ html, body {
     /* overflow: hidden; /* prevents scrollbars */
     /*background-color: black; /* Or any color you want behind the embed */
 }
+header {
+    background:#333;
+    border-radius:15%;
+    border:12px;
+    border-color:#555;
+}
 #container {
     display: flex;
     flex-wrap: wrap;
@@ -30,12 +36,6 @@ html, body {
     margin: 0 auto 10px;
     border-radius: 15%;
 }
-header {
-    background:333;
-    border-radius:15%;
-    border:12px;
-    border-color:555;
-}
 embed {
     display: block;
     width: 100%;
@@ -48,4 +48,10 @@ embed {
 #logo img {
     width:30%;
     height:30%;
+}
+footer {
+    background:#555;
+    border-radius:15%;
+    border:12px;
+    border-color:#777;
 }
