@@ -52,6 +52,7 @@ embed {
 footer {
     background:#555;
     border-radius:15%;
+    text-align:center;
     border:12px;
     border-color:#777;
 }
