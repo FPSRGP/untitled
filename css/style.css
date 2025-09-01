@@ -1,15 +1,17 @@
-#container.ok img {
+.ok img {
     width: 100px;
     height: auto;
     display: block;
     margin: 0 auto 10px;
     border-radius: 15%;
-    border-color:green;
-    border:6px;
+    border: 6px solid green;
 }
 .offline img {
   filter: grayscale(100%); /* Makes the image black & white */
   opacity: 0.7; /* Slight fade */
+  position: relative;
+}
+.TOFIX {
   position: relative;
 }
 .TOFIX::after {
