@@ -154,8 +154,8 @@ embed {
     left: 0;
 }
 footer {
+    margin-top:50px;
     background:#555;
-    border-radius:15%;
     text-align:center;
     border:12px;
     border-color:#777;
