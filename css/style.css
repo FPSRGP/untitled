@@ -11,12 +11,12 @@ header {
     width: 100%;
     background: #333;
     display: flex;
-    align-items: center;
+    align-text: left;
     padding: 10px; /* Optional for spacing */
 }
 header img {
     margin-right: 15px;
-    height: 50px; /* Control size */
+    width: 30%; /* Control size */
 }
 header a{
         text-align:right;
@@ -60,10 +60,6 @@ embed {
     position: absolute;
     top: 0;
     left: 0;
-}
-#logo img {
-    width:30%;
-    height:30%;
 }
 footer {
     background:#555;
