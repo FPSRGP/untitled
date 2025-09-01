@@ -97,7 +97,7 @@
 }
 html, body {
     /* overflow: hidden; /* prevents scrollbars */
-    background-color: pink; /* Or any color you want behind the embed */
+    background-color: #d4d4d4; /* Or any color you want behind the embed */
 }
 header {
     width: 100%;
@@ -154,7 +154,7 @@ embed {
     left: 0;
 }
 footer {
-    margin-top:50px;
+    margin-top:250px;
     background:#555;
     text-align:center;
     border:12px;
