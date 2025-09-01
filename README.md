@@ -10,6 +10,9 @@
    <img src="https://contrib.rocks/image?repo=tw31122007/HTML-Games-V2" />
 </p>
 
+## Preview
+![Jag.io Screenshot](path-to-screenshot.png)
+
 ## Features
 ✔ 60+ popular Projects  
 ✔ Mobile and desktop friendly  
