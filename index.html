@@ -1,3 +1,28 @@
+<!--
+<div id="doki" class="game coming-soon">
+  <a href="ddlc/index.html">
+    <img src="doki.png" alt="Doki Doki Literature Club">
+    <h3>Doki Doki Literature Club</h3>
+  </a>
+</div>
+
+<script>
+  const unlockTime = "00:00"; // HH:MM format
+  const game = document.getElementById("doki");
+
+  function checkUnlock() {
+    const now = new Date();
+    const currentTime = `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+    if (currentTime === unlockTime) {
+      game.classList.remove("coming-soon");
+      game.style.pointerEvents = "auto";
+      game.style.opacity = "1";
+    }
+  }
+
+  setInterval(checkUnlock, 60000); // check every minute
+</script>
+-->
 <!DOCTYPE html>
 <html>
   <head> 
