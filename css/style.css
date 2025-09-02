@@ -4,12 +4,12 @@
 }
 
 #container div img {
-  width: 50%;
+  width: 30%;
   transition: transform 0.3s ease;
 }
 
 #container div img:hover {
-  transform: scale(.55);
+  transform: scale(.35);
 }
 .soon {
   position: relative;
