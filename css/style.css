@@ -9,7 +9,7 @@
 }
 
 #container div img:hover {
-  transform: scale(.35);
+  transform: scale(1.1);
 }
 .soon {
   position: relative;
