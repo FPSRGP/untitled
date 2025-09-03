@@ -1,5 +1,5 @@
 ![Jag.io Banner](images/banners/banner1.png)
-# *welcome to* **Jag.io** 
+# *welcome to* **[Untitled]** 
  - releasing at 60 stratagems!
 **(should probably use json sooner or later lmao)**
 
