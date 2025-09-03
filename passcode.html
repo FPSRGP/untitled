@@ -89,9 +89,8 @@ function clearPasscode() {
 
 function checkPasscode() {
   if (input === "1234") { // Change to your desired passcode
-    document.getElementById("passcode").value = ""; 
-    input = ""; 
-    document.getElementById("passcode-container").style.display = "none";
+    alert("Unlocked!");
+    window.location.href = "index.html"; // Redirect after unlock
   } else {
     alert("Wrong passcode!");
     input = "";
