@@ -28,7 +28,7 @@
 - @WilardzySenpai for the loading screen
 - @tw31122007 for source Library
 
-  ## License
+## License
 ```
 MIT License
 
