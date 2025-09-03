@@ -73,7 +73,7 @@
 
 
 <script>
-  let input = "";
+let input = "";
 
 function addDigit(digit) {
   if (input.length < 6) { // Limit passcode to 6 digits
@@ -89,8 +89,10 @@ function clearPasscode() {
 
 function checkPasscode() {
   if (input === "1234") { // Change to your desired passcode
-    alert("Unlocked!");
-    window.location.href = "index.html"; // Redirect after unlock
+    document.getElementById("passcode").value = ""; // Clear the input display
+    input = ""; // Reset input
+    // Optional: Hide the passcode container after success
+    document.getElementById("passcode-container").style.display = "none";
   } else {
     alert("Wrong passcode!");
     input = "";
