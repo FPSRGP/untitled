@@ -20,6 +20,7 @@ header img {
     width: 30%;
 }
 header a, footer a {
+    margin: 0 10px;
     color: white;
     text-decoration: none;
     font-family: monospace;
@@ -99,7 +100,7 @@ header a:hover, footer a:hover {
 
 /* Image Filters by Status */
 .ok img {
-    /*border: 3px solid #00ff00;*/
+    border: 3px solid #00ff00;
 }
 .FIX img {
     filter: invert(100%);
