@@ -2,7 +2,8 @@
 # *welcome to* **Jag.io** 
  - releasing at 60 stratagems!
 **(should probably use json sooner or later lmao)**
-= all 60 stratagems will be avaliable on release day!
+
+- all 60 stratagems will be avaliable on release day!
 - version 0.0.1
 # Contributors:
 <p align="center">
