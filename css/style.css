@@ -63,6 +63,12 @@ header a:hover, footer a:hover {
     transition: transform 0.3s ease;
 }
 #container div:hover img {
+    transform: scale(1.05);
+}
+#container div:hover p {
+    transform: scale(1.1);
+}
+#container div:hover h3 {
     transform: scale(1.1);
 }
 
