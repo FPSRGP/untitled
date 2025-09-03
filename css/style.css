@@ -20,7 +20,7 @@ header img {
     width: 30%;
 }
 header a, footer a {
-    margin: 0 10px;
+    margin: 0 10px;  
     color: white;
     text-decoration: none;
     font-family: monospace;
@@ -62,13 +62,10 @@ header a:hover, footer a:hover {
     border-radius: 15%;
     transition: transform 0.3s ease;
 }
-#container div:hover {
+#container div:hover img {
     transform: scale(1.1);
-    box-shadow: 0 0 10px;
 }
-#container img, #container h3, #container p {
-    transform: inherit;
-}
+
 /* Status Effects */
 .soon {
     opacity: 0.5;
@@ -94,13 +91,13 @@ header a:hover, footer a:hover {
 }
 .FIX:hover,
 .soon:hover {
-    border: 3px solid #00ff00;
+    border: 3px solid #ff0000;
     box-shadow: 0 0 10px #ff0000;
 }
 
 /* Image Filters by Status */
 .ok img {
-    border: 3px solid #00ff00;
+    /*border: 3px solid #59f52d;*/
 }
 .FIX img {
     filter: invert(100%);
