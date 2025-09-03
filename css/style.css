@@ -1,116 +1,37 @@
-#container div {
-  overflow: hidden; /* hides overflow when image grows */
-  position: relative;
-  border: 3px solid transparent;
-}
-
-#container div img {
-  width: 30%;
-  transition: transform 0.3s ease;
-}
-
-#container div :hover {
-  transform: scale(1.1);
-}
-.soon {
-  position: relative;
-  opacity: 0.5; /* make it look disabled */
-  pointer-events: none; /* disable clicks */
-}
-
-.soon::after {
-  content: "COMING SOON";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
-  padding: 10px;
-  border-radius: 8px;
-  font-weight: bold;
-}
-/* ✅ Green border for OK games */
-.ok:hover {
-  border: 3px solid #00ff00; /* Bright green */
-}
-/* ❌ Red border for FIX games */
-.FIX:hover {
-  border: 3px solid #ff0000; /* Bright red */
-}
-.ok:hover {
-  border: 3px solid #00ff00;
-  box-shadow: 0 0 10px #00ff00;
-}
-.soon:hover {
-  border: 3px solid #ff0000; /* Bright red */
-}
-.FIX:hover {
-  border: 3px solid #ff0000;
-  box-shadow: 0 0 10px #ff0000;
-}
-.soon:hover {
-  border: 3px solid #ff0000;
-  box-shadow: 0 0 10px #ff0000;
-}
-.ok img {
-    width: 100px;
-    height: auto;
-    display: block;
-    margin: 0 auto 10px;
-    border-radius: 15%;
-    border: 3px #59f52d;
-}
-.FIX img {
-  filter: invert(100%); /* Makes the image inverted */
-  opacity: 0.7; /* Slight fade */
-  position: relative;
-}
-.soon img {
-  filter: grayscale(100%); /* Makes the image black & white */
-  opacity: 0.7; /* Slight fade */
-  position: relative;
-}
-.FIX {
-  position: relative;
-}
-.FIX::after {
-  content: url('images/status/progress.jpeg'); /* Your hammer + hat icon */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0.8;
-  width: 60px; /* Adjust size */
-  height: 60px;
-  pointer-events: none; /* So clicks pass through */
-}
+/* Reset & Global */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 html, body {
-    /* overflow: hidden; /* prevents scrollbars */
-    background-color: #d4d4d4; /* Or any color you want behind the embed */
+    background-color: #d4d4d4;
 }
+
+/* Header */
 header {
     width: 100%;
     background: #333;
     display: flex;
-    align-text: left;
-    padding: 10px; /* Optional for spacing */
+    padding: 10px;
 }
 header img {
     margin-right: 15px;
-    width: 30%; /* Control size */
+    width: 30%;
 }
-header a{
-        text-align:right;
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
 }
-a {
-        text-align:center;
+header a:hover, footer a:hover {
+    color: #ff4444;
+    text-decoration: underline;
 }
+
+/* Game Container Grid */
 #container {
     display: flex;
     flex-wrap: wrap;
@@ -118,27 +39,88 @@ a {
     align-items: flex-start;
     gap: 10px;
     padding: 20px;
-    overflow-x: hidden;
-    box-sizing: border-box;
-    background-color:#d3d3d3;
+    background-color: #d3d3d3;
 }
 #container div {
     flex: 1 1 280px;
     width: 280px;
     margin: 10px;
-    background:#d4d4d4;
-    text-align:center;
+    background: #d4d4d4;
+    text-align: center;
     border-radius: 15%;
-    box-sizing: border-box;
-    padding:10px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid transparent;
 }
-#container img {
+#container div img {
     width: 100px;
     height: auto;
     display: block;
     margin: 0 auto 10px;
     border-radius: 15%;
+    transition: transform 0.3s ease;
 }
+#container div:hover img {
+    transform: scale(1.1);
+}
+
+/* Status Effects */
+.soon {
+    opacity: 0.5;
+    pointer-events: none;
+}
+.soon::after {
+    content: "COMING SOON";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Hover Borders */
+.ok:hover {
+    border: 3px solid #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+}
+.FIX:hover,
+.soon:hover {
+    border: 3px solid #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+/* Image Filters by Status */
+.ok img {
+    border: 3px solid #59f52d;
+}
+.FIX img {
+    filter: invert(100%);
+    opacity: 0.7;
+}
+.soon img {
+    filter: grayscale(100%);
+    opacity: 0.7;
+}
+
+/* FIX Icon Overlay */
+.FIX::after {
+    content: url('images/status/progress.jpeg');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+    width: 60px;
+    height: 60px;
+    pointer-events: none;
+}
+
+/* Embed Fullscreen */
 embed {
     display: block;
     width: 100%;
@@ -148,10 +130,11 @@ embed {
     top: 0;
     left: 0;
 }
+
+/* Footer */
 footer {
-    margin-top:250px;
-    background:#555;
-    text-align:center;
-    border:12px;
-    border-color:#777;
+    margin-top: 250px;
+    background: #555;
+    text-align: center;
+    padding: 12px;
 }
