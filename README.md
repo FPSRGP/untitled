@@ -11,7 +11,7 @@
 </p>
 
 ## Preview
-![Jag.io Screenshot](path-to-screenshot.png)
+![Jag.io Screenshot](preview.png)
 
 ## Features
 ✔ 60+ popular Projects  
