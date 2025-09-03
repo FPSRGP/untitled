@@ -5,13 +5,6 @@
 
 - all 60 stratagems will be avaliable on release day!
 - version 0.0.1
-# Contributors:
-<p align="center">
-  <img src="https://contrib.rocks/image?repo=waterl3mon/Jag.io" />
-  <img src="https://contrib.rocks/image?repo=WilardzySenpai/WilardzySenpai" />
-  <img src="https://contrib.rocks/image?repo=genizy/genizy.github.io" />
-   <img src="https://contrib.rocks/image?repo=tw31122007/HTML-Games-V2" />
-</p>
 
 ## Preview
 ![Jag.io Screenshot](preview.png)
@@ -21,6 +14,14 @@
 ✔ Mobile and desktop friendly  
 ✔ No ads \
 ✔ Open-source, community-driven  
+
+# Contributors:
+<p align="center">
+  <img src="https://contrib.rocks/image?repo=waterl3mon/Jag.io" />
+  <img src="https://contrib.rocks/image?repo=WilardzySenpai/WilardzySenpai" />
+  <img src="https://contrib.rocks/image?repo=genizy/genizy.github.io" />
+   <img src="https://contrib.rocks/image?repo=tw31122007/HTML-Games-V2" />
+</p>
 
 # credits
 - @genizy for the ports <3 
