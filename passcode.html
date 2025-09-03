@@ -89,9 +89,8 @@ function clearPasscode() {
 
 function checkPasscode() {
   if (input === "1234") { // Change to your desired passcode
-    document.getElementById("passcode").value = ""; // Clear the input display
-    input = ""; // Reset input
-    // Optional: Hide the passcode container after success
+    document.getElementById("passcode").value = ""; 
+    input = ""; 
     document.getElementById("passcode-container").style.display = "none";
   } else {
     alert("Wrong passcode!");
@@ -99,4 +98,18 @@ function checkPasscode() {
     document.getElementById("passcode").value = "";
   }
 }
+
+// ✅ Add keyboard support
+document.addEventListener("keydown", function(event) {
+  if (!isNaN(event.key) && event.key !== " ") {
+    // If key is a number
+    addDigit(event.key);
+  } else if (event.key === "Backspace") {
+    // Delete last digit
+    clearPasscode();
+  } else if (event.key === "Enter") {
+    // Check passcode on Enter
+    checkPasscode();
+  }
+});
 </script>
